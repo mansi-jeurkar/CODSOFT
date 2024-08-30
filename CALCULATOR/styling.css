@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background:rgb(53, 51, 51);
+    background-image: url(calcuback.jpg);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.calculator{
+    background-image: url(calcuback.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 30px;
+    height: 550px;
+    border: 2px solid white;
+   
+
+}
+.calculator form input{
+    border: 30;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 25px  rgba(14, 11, 11, 0.1),5px 5px 2px  rgba(255, 255, 255, 0.1);
+    background: transparent;
+    font-size: 20px;
+    color: #fdfcfc;
+    cursor: pointer;
+    margin: 10px;
+    border-color: rgb(223, 240, 239);
+    font-weight: 700;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 0;
+    box-shadow:-8px -8px  25px  rgba(217, 237, 231, 0.1) ;
+    
+  
+}
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    color: rgb(176, 219, 232);
+}
+form input.equal{
+    width: 130px;
+}
+
+form input.operator{
+    color: rgb(255, 255, 255);
+}
